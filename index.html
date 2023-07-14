@@ -1,533 +1,102 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>小米商城-小米官方网站</title>
-		<meta name="keywords" content="网站开发，小米商城" />
-		<meta name="description" content="参照小米商城制作" />
-		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/index.css" />
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
-		<script type="text/javascript" src="js/index.js" ></script>
-	</head>
-	<body>
-		<!--header start-->
-		<div class="header">
-			<div class="h_top">
-				<dic class="h_t_left lFloat">
-					<ul>
-						<li><a href="#">小米商城</a><span class="h_t_line">|</span></li>
-						<li><a href="#">MIUI</a><span class="h_t_line">|</span></li>
-						<li><a href="#">米聊</a><span class="h_t_line">|</span></li>
-						<li><a href="#">游戏</a><span class="h_t_line">|</span></li>
-						<li><a href="#">多看阅读</a><span class="h_t_line">|</span></li>
-						<li><a href="#">云服务</a><span class="h_t_line">|</span></li>
-						<li><a href="#">小米网移动版</a><span class="h_t_line">|</span></li>
-						<li><a href="#">问题反馈</a><span class="h_t_line">|</span></li>
-						<li><a href="#">SelectRegion</a></li>
-					</ul>
-				</dic>
-				<div class="h_t_right rFloat">
-					<div class="h_t_r_login lFloat">
-						<a href="#">登录</a>
-						<span class="h_t_line">|</span>
-						<a href="#">注册</a>
-						<span class="h_t_line">|</span>
-						<a href="#">消息通知</a>
-					</div>
-					<div class="h_t_r_shopCart rFloat">
-						<i class="iconfont">&#xe602;</i>
-						<span class="car">购物车（<span id="num">0</span>）</span>
-						<div class="h_m_r_s_hide">
-							购物车中还没有商品，赶紧选购吧！
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-		<!--header end-->
-		<!--Wap start-->
-		<div class="warp">
-			<div class="w_nav">
-				<div class="w_n_logo lFloat">
-					<a href="#"></a>
-				</div>
-				<div class="w_n_center lFloat">
-					<ul>
-						<li class="w_n_c_li"><a href="#">小米手机</a></li>
-						<li class="w_n_c_li"><a href="#">红米</a></li>
-						<li class="w_n_c_li"><a href="#">平板 · 笔记本</a></li>
-						<li class="w_n_c_li"><a href="#">电视</a></li>
-						<li class="w_n_c_li"><a href="#">盒子 · 影音</a></li>
-						<li class="w_n_c_li"><a href="#">路由器</a></li>
-						<li><a href="#">智能硬件</a></li>
-						<li><a href="#">服务</a></li>
-						<li><a href="#">社区</a></li>
-					</ul>
-					
-				</div>
-				<div class="w_n_serach rFloat"> 
-					<div class="w_n_s_input lFloat"/>
-						<input type="text">
-						<div class="w_n_s_hide">
-							<ul>
-								<li><a href="http://www.baidu.com">小米手机<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-								<li><a href="">空气净化器<span>约有11件</span></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="w_n_s_find lFloat">
-						<i class="iconfont">&#xe603;</i>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="w_n_c_hover">
-				<div class="w_n_c_h_main">
-					<ul class="ul1" style="display:block">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/xiaomi01.jpg"></a>
-							<a href="" class="p_title">小米Max</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/xiaomi02.jpg"></a>
-							<a href="" class="p_title">小米手机5</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/xiaomi03.jpg"></a>
-							<a href="" class="p_title">小米手机4c</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-					<ul class="ul2">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hongmi01.jpg"></a>
-							<a href="" class="p_title">红米Pro</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hongmi02.jpg"></a>
-							<a href="" class="p_title">红米Note 3</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hongmi03.jpg"></a>
-							<a href="" class="p_title">红米手机3S</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hongmi04.jpg"></a>
-							<a href="" class="p_title">红米手机3</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-					<ul class="ul3">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/pingban01.jpg"></a>
-							<a href="" class="p_title">小米平板2 16GB</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/pingban02.jpg"></a>
-							<a href="" class="p_title">小米平板2 64GB</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/pingban03.jpg"></a>
-							<a href="" class="p_title">小米平板2 64GB Windows版</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/pingban04.jpg"></a>
-							<a href="" class="p_title">小米笔记本Air 12.5"</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/pingban05.jpg"></a>
-							<a href="" class="p_title">小米笔记本Air 13.3"</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-					<ul class="ul4">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi01.jpg"></a>
-							<a href="" class="p_title">小米电视3S 43英寸</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi02.jpg"></a>
-							<a href="" class="p_title">小米电视3S 48英寸</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi03.jpg"></a>
-							<a href="" class="p_title">小米电视3 55英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi04.jpg"></a>
-							<a href="" class="p_title">小米电视3 60英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi05.jpg"></a>
-							<a href="" class="p_title">小米电视3S 65英寸 曲面</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/dianshi06.jpg"></a>
-							<a href="" class="p_title">小米电视3 70英寸</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-					<ul class="ul5">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi01.png"></a>
-							<a href="" class="p_title">小米盒子mini版</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi02.png"></a>
-							<a href="" class="p_title">小米电视3S 48英寸</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi03.jpg"></a>
-							<a href="" class="p_title">小米电视3 55英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi04.jpg"></a>
-							<a href="" class="p_title">小米电视3 60英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi05.jpg"></a>
-							<a href="" class="p_title">小米电视3S 65英寸 曲面</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/hezi06.jpg"></a>
-							<a href="" class="p_title">小米电视3 70英寸</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-					<ul class="ul6">
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi01.jpg"></a>
-							<a href="" class="p_title">小米盒子mini版</a>
-							<p class="p_price">1299元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi02.png"></a>
-							<a href="" class="p_title">小米电视3S 48英寸</a>
-							<p class="p_price">1999元起</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi03.jpg"></a>
-							<a href="" class="p_title">小米电视3 55英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi04.jpg"></a>
-							<a href="" class="p_title">小米电视3 60英寸</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi05.jpg"></a>
-							<a href="" class="p_title">小米电视3S 65英寸 曲面</a>
-							<p class="p_price">1099元</p>
-							<div class="p_border"></div>
-						</li>
-						<li>
-							<a href="" class="p_img"><img src="img/nav/luyouqi06.jpg"></a>
-							<a href="" class="p_title">小米电视3 70英寸</a>
-							<p class="p_price">1099元</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-		<!--wap end-->
-		<!--banner start-->
-		<div class="banner">
-			<div class="b_show">
-				<div class="b_s_picture">
-					<ul>
-						<li style="display:block"><a href="#"><img src="img/banner/banner1.jpg"/></a></li>
-						<li><a href="#"><img src="img/banner/banner2.jpg" /> </a></li>
-						<li><a href="#"><img src="img/banner/banner3.jpg" /> </a></li>
-						<li><a href="#"><img src="img/banner/banner4.jpg" /> </a></li>
-						<li><a href="#"><img src="img/banner/banner5.jpg" /> </a></li>
-						<li><a href="#"><img src="img/banner/banner6.jpg" /> </a></li>
-						<li><a href="#"><img src="img/banner/banner7.jpg" /> </a></li>
-					</ul>
-				</div>
-				<div class="b_s_btn">
-					<div class="b_s_prev"></div>
-					<div class="b_s_next"></div>
-				</div>
-				<div class="b_s_tabs">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-			</div>
-			<div class="b_nav">
-				<ul>
-				<li>
-					<a href="">手机 平板 电话卡<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide">
-						<ul>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/1.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/2.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/3.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/4.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/5.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/6.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-						</ul>
-						<ul>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/7.png" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/8.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/9.jpg" alt=""><span>小米手机5</span></a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/10.jpg" alt=""><span>小米手机5</span></a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/11.jpg" alt=""><span>小米手机5</span></a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/first/12.jpg" alt=""><span>小米手机5</span></a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li>
-					<a href="">笔记本<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:256px">
-						<ul>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/second/1.jpg" alt=""><span>小米手机5</span></a>
-								<a href="" class="b_n_h_xg">选购</a>
-							</li>
-							<li>
-								<a href="" class="b_n_h_img"><img src="img/banner/nav2/second/2.jpg" alt=""><span>小米手机5</span></a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li>
-					<a href="">电视 盒子<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:768px">
-						3
-					</div>
-				</li>
-				<li>
-					<a href="">路由器 智能硬件<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:768px">
-						4
-					</div>
-				</li>
-				<li>
-					<a href="">移动电源 电池 插线板<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:512px">
-						5
-					</div>
-				</li>
-				<li>
-					<a href="">耳机 音箱<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:768px">
-						6
-					</div>
-				</li>
-				<li>
-					<a href="">保护套 后盖<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:256px">
-						7
-					</div>
-				</li>
-				<li>
-					<a href="">贴膜 其他配件<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:256px">
-						8
-					</div>
-				</li>
-				<li>
-					<a href="">米兔 服装<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:256px">
-						9
-					</div>
-				</li>
-				<li>
-					<a href="">箱包 其他周边<span class="iconfont">&#xe60a;</span></a>
-					<div class="b_n_hide" style="width:256px">
-						10
-					</div>
-				</li>
-				
-			</div>
-			
-		</div>
-		
-		<!--banner end-->
-		<!--footer start-->
-		<div class="footer">
-			<div class="f_service">
-				<ul>
-					<li><a href="#"><span class="iconfont">&#xe608;</span>1小时快修服务</a></li>
-					<li><a href="#"><span class="iconfont">&#xe605;</span>7天无理由退货</a></li>
-					<li><a href="#"><span class="iconfont">&#xe607;</span>15天免费换货</a></li>
-					<li><a href="#"><span class="iconfont">&#xe609;</span>满150元包邮</a></li>
-					<li style="border-right:none;"><a href="#"><span class="iconfont">&#xe604;</span>520余家售后网点</a></li>
-				</ul>
-			</div>
-			<div class="f_info">
-				<div class="f_i_left">
-					<dl>
-						<dt>帮助中心</dt>
-						<dd><a href="#">账户管理</a></dd>
-						<dd><a href="#">购物指南</a></dd>
-						<dd><a href="#">订单操作</a></dd>
-					</dl>
-					<dl>
-						<dt>服务支持</dt>
-						<dd><a href="#">售后政策</a></dd>
-						<dd><a href="#">自助服务</a></dd>
-						<dd><a href="#">相关下载</a></dd>
-					</dl>
-					<dl>
-						<dt>线下门店</dt>
-						<dd><a href="#">小米之家</a></dd>
-						<dd><a href="#">服务网点</a></dd>
-						<dd><a href="#">零售网点</a></dd>
-					</dl>
-					<dl>
-						<dt>关于小米</dt>
-						<dd><a href="#">了解小米</a></dd>
-						<dd><a href="#">加入小米</a></dd>
-						<dd><a href="#">联系我们</a></dd>
-					</dl>
-					<dl>
-						<dt>关注我们</dt>
-						<dd><a href="#">新浪微博</a></dd>
-						<dd><a href="#">小米部落</a></dd>
-						<dd><a href="#">官方微信</a></dd>
-					</dl>
-					<dl>
-						<dt>特色服务</dt>
-						<dd><a href="#">F 码通道</a></dd>
-						<dd><a href="#">小米移动</a></dd>
-						<dd><a href="#">防伪查询</a></dd>
-					</dl>
-				</div>
-				<div class="f_i_right">
-					<p class="p1">400-100-5678</p>
-					<p class="p2">周一至周日 8:00-18:00 </p>
-					<p class="p3">（仅收市话费）</p>
-					<a href=""><span class="iconfont">&#xe60e;</span> 24小时在线客服</a>
-				</div>
-			</div>
-			<div class="f_link">
-				<div class="f_l_info">
-					<div class="f_l_i_left">
-						<img src="img/logo.png" width="57" height="57">
-						<ul>
-							<li><a href="">小米商城</a>|</li>
-							<li><a href="">MIUI</a>|</li>
-							<li><a href="">米聊</a>|</li>
-							<li><a href="">多看书城</a>|</li>
-							<li><a href="">小米路由器</a>|</li>
-							<li><a href="">视频电话</a>|</li>
-							<li><a href="">小米后院</a>|</li>
-							<li><a href="">小米天猫店</a>|</li>
-							<li><a href="">小米淘宝直营店</a>|</li>
-							<li><a href="">小米网盟</a>|</li>
-							<li><a href="">问题反馈</a>|</li>
-							<li><a href="">Select Region</a></li>
-						</ul>
-						<span>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号 
-	违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
-					</div>
-					<div class="f_l_i_right">
-						<a href="#"><img src="img/footer/1.png" alt=""></a>
-						<a href="#"><img src="img/footer/2.png" alt=""></a>
-						<a href="#"><img src="img/footer/3.png" alt=""></a>
-						<a href="#"><img src="img/footer/4.png" alt=""></a>
-					</div>
-				</div>
-				<div class="f_l_bottom"></div>
-			</div>
-		</div>
-	<!--footer end-->
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研路有我</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(./图/背景.png);
+            background-size: 300px;
+            background-color: rgba(246, 249, 251, 0.1);
+            background-blend-mode: multiply;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 23px;
+            padding-bottom: 40px;
+            font-weight: 100;
+            font-size: 70px;
+            font-family: 华文琥珀;
+            color: rgb(0, 170, 255);
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 10%;
+        }
+
+        .human1 {
+            width: 310px;
+            margin: 0 auto;
+        }
+
+        .human2 {
+            width: 460px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+
+        button {
+            width: 200px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 25px;
+            font-size: 25px;
+        }
+
+        button,
+        button:focus {
+            font-size: 20px;
+            padding: 12px 30px;
+            border-radius: 5px;
+            background-color: #e2e2e2;
+            border: 2px solid #ffffff;
+            color: #fff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>研&nbsp;路&nbsp;有&nbsp;我</h1>
+    <div class="human1">
+        <img src="./图/1.jpg">
+        <img src="./图/2.jpg">
+    </div>
+    <div class="human2">
+        <img src="./图/3.jpg">
+        <img src="./图/4.jpg">
+        <img src="./图/5.jpg">
+    </div>
+    <button><a href="./首页.html">点击进入</a></button>
+
+</body>
+
 </html>
