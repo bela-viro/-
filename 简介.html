@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研路有我</title>
+    <link rel="stylesheet" href="./CSS/content.css">
+</head>
+    <style>
+        .introdution{
+            display: flex; 
+            margin-top: 40px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .introdution .title1{
+            width: 500px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;           
+            background-color: rgba(156, 255, 243, 0.2);
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .introdution .title1 .tutu{
+            width: 100px;
+            height: 300px;
+            flex-shrink: 0;            
+            background-image: url(./图/图图.png);
+            background-size: 100px;
+        }
+        .introdution .title1 h2{
+            color: rgb(0, 195, 255);
+            font-size: 30px;
+            font-family: 楷体,方正姚体,华文隶书,黑体,华文彩云,华文行楷;
+            text-align: center;
+        }
+        .introdution .title1 .passage{
+            text-indent: 2em;
+            font-weight: 600;
+        }
+        .introdution img{
+            width: 540px;
+            height: 350px;
+            border: 3px solid black;
+            border-radius: 10px;
+            z-index: 2;
+        }
+        .gaoguai {
+            /* display: flex; */
+            margin-top: -396px;
+            /* justify-content: flex-end; */
+            float: right;
+            z-index: 1;
+        }
+        .manytu{
+            width: 920px;
+            display: flex;
+            margin-left: 125px;
+            width: 400px;
+            height: 400px;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        }
+        .manytu img{
+            margin-top: 20px;
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+    </style>
+<body>
+    <div class="header">
+        <div class="logn">
+            <button><a href="./index.html">研路有我</a></button>
+        </div>
+        <ul>
+            <li class="active"><button><a href="./简介.html">简介</a></button></li>
+            <li><button><a href="./组成.html">组成</a></button></li>
+            <li><button><a href="./未来.html">未来</a></button></li>
+            <li><button><a href="./加入我们.html">加入我们</a></button></li>
+        </ul>
+    </div>
+    <div class="introdution">
+        <div class="title1">
+            <div class="tutu"></div>
+            <div class="passage">
+                <h2>这是什么？</h2>
+                <p>正如这个博客的名字一样，毫无疑问我们是一群励志考研的在校生，
+                虽然我们或多或少称得上是计算机专业的科班学生，但由于就读于三本院校或者专科院校，
+                学校能够提供给我们的资源少之又少。所以我们想要通过这个博客作为我们的一个小项目，
+                现在已经做出了基本的静态网页，日后我们会不断低完善这个网站，使之成为一个响应式的、有前后端框架的，
+                一个真正可以称得上是有技术含量的网站。
+                </p>
+                <p>目前我们的设想是像贴吧一样，可以进行发帖、回帖，并且有多种分区可以进行选择，借助学校这个平台，
+                    相信我们的网站的流量会扩大起来！
+                </p>
+                <p>如果你有意向加入我们，那么我们欢迎你的加入！</p>
+            </div>
+        </div>
+        <img src="./图/海绵宝宝.jpg">
+    </div>
+    <div class="gaoguai">
+        <img src="./图/冰淇凌.png">
+    </div>
+    <div class="manytu">
+        <img src="./图/魔法师.jpg">
+        <img src="./图/小老鼠.jpg">
+    </div>
+</body>
+
+</html>
